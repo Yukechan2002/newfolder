@@ -33,6 +33,8 @@ function foo() {
   para3.innerHTML = `${data3}`;
   para4.innerHTML = `${data4}`;
 
+  console.log(data);
+
   data.append(para1, para2, para3, para4);
   document.body.append(data);
 }
